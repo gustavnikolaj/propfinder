@@ -1,0 +1,15 @@
+{
+  "name": "propfinder",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "author": "Gustav Nikolaj Olsen <gno@one.com>",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "mocha": "1.21.4",
+    "unexpected": "5.0.0-beta4"
+  }
+}
