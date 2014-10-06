@@ -8,6 +8,9 @@
   },
   "author": "Gustav Nikolaj <gustavnikolaj@gmail.com>",
   "license": "BSD-3-Clause",
+  "files": [
+    "lib/propfinder.js"
+  ],
   "devDependencies": {
     "mocha": "1.21.4",
     "unexpected": "5.0.0-beta4"
