@@ -58,7 +58,7 @@ propfinder('foo', { foo: 'bar' }, function (value) {
 The return value from the optional method is also returned from propfinder.
 
 ```javascript
-var resultId = propfinder('person', contactsJsonData, function (person) {
+var fullName = propfinder('person', contactsJsonData, function (person) {
     return person.firstName + ' ' + person.lastName;
 });
 ```
