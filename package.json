@@ -1,6 +1,6 @@
 {
   "name": "propfinder",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Find properties on objects.",
   "main": "lib/propfinder.js",
   "scripts": {
