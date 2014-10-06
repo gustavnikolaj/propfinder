@@ -47,4 +47,20 @@ var id2 = getId(someOtherJsonStructure); // => undefined
 
 ```
 
+It takes a method as the third optional argument.
+
+```javascript
+propfinder('foo', { foo: 'bar' }, function (value) {
+    console.log('we found the value', value, 'in the object on the key foo';
+});
+```
+
+The return value from the optional method is also returned from propfinder.
+
+```javascript
+var resultId = propfinder('person', contactsJsonData, function (person) {
+    return person.firstName + ' ' + person.lastName;
+});
+```
+
 It should work in all ES3 browsers and in node.

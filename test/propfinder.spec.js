@@ -51,4 +51,23 @@ describe('propfinder', function () {
         expect(propfinder('foo', [1, 2, 3]), 'to be undefined');
     });
 
+    it('should take a function as third argument and call that with the value of the property when found', function (done) {
+        propfinder('foo', {foo: 'bar'}, function (value) {
+            expect(value, 'to be', 'bar');
+            done();
+        });
+    });
+
+    it('should take a function as third argument and return the return value of that function when given', function () {
+        expect(propfinder('foo', {foo: 'bar'}, function (value) {
+            return value + value;
+        }), 'to be', 'barbar');
+    });
+
+    it('should not call the optional method if no value is found', function () {
+        propfinder('foo.bar', {}, function () {
+            expect.fail('Callback was called');
+        });
+    });
+
 });
