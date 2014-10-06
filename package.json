@@ -7,6 +7,7 @@
     "test": "mocha -R spec"
   },
   "author": "Gustav Nikolaj <gustavnikolaj@gmail.com>",
+  "repository": "git://github.com/gustavnikolaj/propfinder",
   "license": "BSD-3-Clause",
   "files": [
     "lib/propfinder.js"
