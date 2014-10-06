@@ -1,12 +1,12 @@
 {
   "name": "propfinder",
   "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Find properties on objects.",
+  "main": "lib/propfinder.js",
   "scripts": {
     "test": "mocha -R spec"
   },
-  "author": "Gustav Nikolaj Olsen <gno@one.com>",
+  "author": "Gustav Nikolaj <gustavnikolaj@gmail.com>",
   "license": "BSD-3-Clause",
   "devDependencies": {
     "mocha": "1.21.4",
