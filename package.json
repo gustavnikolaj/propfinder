@@ -8,7 +8,7 @@
   },
   "author": "Gustav Nikolaj Olsen <gno@one.com>",
   "license": "BSD-3-Clause",
-  "dependencies": {
+  "devDependencies": {
     "mocha": "1.21.4",
     "unexpected": "5.0.0-beta4"
   }
